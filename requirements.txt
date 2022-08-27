@@ -16,3 +16,4 @@ requests
 psycopg2-binary
 Markdown
 sentry-sdk[flask]
+firebase_admin
