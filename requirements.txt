@@ -1,101 +1,18 @@
-aiohttp @ file:///home/runner/.cache/pypoetry/artifacts/7c/7f/ef/e3929f8a69b401d94cdb7beaddd26f627c8ec74a4c2ed54154231b3da0/aiohttp-3.8.1-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
-aiosignal @ file:///home/runner/.cache/pypoetry/artifacts/10/f9/3e/e3829bbfee02973256e0f91c0847dffab1e800c0c3cde650164728e576/aiosignal-1.2.0-py3-none-any.whl
-async-timeout @ file:///home/runner/.cache/pypoetry/artifacts/cc/a0/0d/f40eecfce9a507060d4617ff2cccee167ce496fa5f7a6b1e447164afea/async_timeout-4.0.2-py3-none-any.whl
-attrs @ file:///home/runner/.cache/pypoetry/artifacts/ce/c5/12/8fd5b4b1dc80042f7e01fbe2ff237c1b919916077e31ba1af981b6e970/attrs-21.4.0-py2.py3-none-any.whl
-backports.entry-points-selectable==1.1.1
-bidict @ https://files.pythonhosted.org/packages/82/83/e971aa0766c14544722c21bd6ca1c1c65f04f0b3fab65eeb31ed555209d6/bidict-0.22.0-py3-none-any.whl#sha256=415126d23a0c81e1a8c584a8fb1f6905ea090c772571803aeee0a2242e8e7ba0
-CacheControl @ https://files.pythonhosted.org/packages/83/63/15ce47ede5b03657e920f3f006e56ca9a16f7873978146f2f77e297bdd22/CacheControl-0.12.11-py2.py3-none-any.whl#sha256=2c75d6a8938cb1933c75c50184549ad42728a27e9f6b92fd677c3151aa72555b
-cachetools @ https://files.pythonhosted.org/packages/68/aa/5fc646cae6e997c3adf3b0a7e257cda75cff21fcba15354dffd67789b7bb/cachetools-5.2.0-py3-none-any.whl#sha256=f9f17d2aec496a9aa6b76f53e3b614c965223c061982d434d160f930c698a9db
-cachy==0.3.0
-certifi @ file:///home/runner/.cache/pypoetry/artifacts/fd/81/ee/be123931ea3594707a9c97b6efe714d89a662fd105fa0de64e88d20fac/certifi-2022.6.15-py3-none-any.whl
-cffi==1.15.0
-charset-normalizer @ file:///home/runner/.cache/pypoetry/artifacts/ec/5b/a2/c10e4856edc87c679dee9eda80eaf78838440ead15e9f074a8cb791024/charset_normalizer-2.0.12-py3-none-any.whl
-cleo==0.8.1
-click @ file:///home/runner/.cache/pypoetry/artifacts/84/f3/b8/1defc068c01b2750b2c6647771d82e8ca1d3965091b653da0401b5a9f5/click-8.1.3-py3-none-any.whl
-clikit==0.6.2
-crashtest==0.3.1
-cryptography==35.0.0
-debugpy==1.2.1
-distlib==0.3.3
-docopt==0.6.2
-filelock==3.3.2
-firebase-admin @ https://files.pythonhosted.org/packages/8b/07/437c61ea8f597c22cfe9bd801484ab9e449d7c16f8ec50fcf8d18f421c74/firebase_admin-5.2.0-py3-none-any.whl#sha256=e6d69fb055b1c1e4dc048e0192772c978f9c826a9912d566e5a924eea449bdc1
-Flask @ https://files.pythonhosted.org/packages/3c/96/6c896f80f466b7f5e2cfd6d632fe5b0464dcb412757c595a663e59589a93/Flask-2.2.1-py3-none-any.whl#sha256=3c604c48c3d5b4c63e72134044c0b4fe90ff01ef65280b9fe2d38c8860d99fe5
-Flask-SocketIO @ https://files.pythonhosted.org/packages/b2/ab/12484901c7597790081ae840f9a528a4812fa798cb2a97266d54df36ff23/Flask_SocketIO-5.2.0-py3-none-any.whl#sha256=c82672b843fa271ec2961d356c608bc94a730660ac73a623bddb66c4b3d72215
-frozenlist @ file:///home/runner/.cache/pypoetry/artifacts/4b/48/bc/e571db8ab0705e1770a4e6d936096cc6deee96f02a7f92e9e1a3fc08ca/frozenlist-1.3.0-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-future==0.18.2
-google-api-core @ https://files.pythonhosted.org/packages/98/15/de395aafcfc2b2e37c49672379e6ee23981ac8500b9667be697a85b1e7f0/google_api_core-2.8.2-py3-none-any.whl#sha256=93c6a91ccac79079ac6bbf8b74ee75db970cc899278b97d53bc012f35908cf50
-google-api-python-client @ https://files.pythonhosted.org/packages/87/7e/9e67c31f2e12d856cf73f99a4bf77527d229dce64b74f5c177e7558ab5e7/google_api_python_client-2.55.0-py2.py3-none-any.whl#sha256=7837094c6d35cc8e680b60ebefe37f117ad521f3b263b0c7a6efa0b2f84cb17a
-google-auth @ https://files.pythonhosted.org/packages/7b/17/0b14f55fc8ff002b92e2deb796dd9e28a65ca1a6272d9d844e99051afb67/google_auth-2.9.1-py2.py3-none-any.whl#sha256=5a7eed0cb0e3a83989fad0b59fe1329dfc8c479543039cd6fd1e01e9adf39475
-google-auth-httplib2 @ https://files.pythonhosted.org/packages/ba/db/721e2f3f32339080153995d16e46edc3a7657251f167ddcb9327e632783b/google_auth_httplib2-0.1.0-py2.py3-none-any.whl#sha256=31e49c36c6b5643b57e82617cb3e021e3e1d2df9da63af67252c02fa9c1f4a10
-google-cloud-core @ https://files.pythonhosted.org/packages/ac/4d/bae84e736080ed465a6b02e9f447c89c60c00fcdade2eb6911fecf3f46aa/google_cloud_core-2.3.2-py2.py3-none-any.whl#sha256=8417acf6466be2fa85123441696c4badda48db314c607cf1e5d543fa8bdc22fe
-google-cloud-firestore @ https://files.pythonhosted.org/packages/f7/58/492e669f749f21b686c36a5c43e8c8ea703a1c567022b4ee548757d5ff95/google_cloud_firestore-2.5.1-py2.py3-none-any.whl#sha256=93d0a91340ae7e7d1a9812852dc3c033360e203add20215d8538496c16750bc2
-google-cloud-storage @ https://files.pythonhosted.org/packages/b3/bf/ae046b7499480a2d84f3385a5abe198122eae338ad224c7f2b6a8a4b48ff/google_cloud_storage-2.5.0-py2.py3-none-any.whl#sha256=19a26c66c317ce542cea0830b7e787e8dac2588b6bfa4d3fd3b871ba16305ab0
-google-crc32c @ https://files.pythonhosted.org/packages/b5/c5/cc0a0e7c6650ef7a0df924930a7ab5f4d9328f3d63e37e6594e19e292f58/google_crc32c-1.3.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl#sha256=a7f9cbea4245ee36190f85fe1814e2d7b1e5f2186381b082f5d59f99b7f11328
-google-resumable-media @ https://files.pythonhosted.org/packages/02/a3/19447ef22fdaccf773c395add9d200a6dacba3d39742d9ede0cc67c51874/google_resumable_media-2.3.3-py2.py3-none-any.whl#sha256=5b52774ea7a829a8cdaa8bd2d4c3d4bc660c91b30857ab2668d0eb830f4ea8c5
-googleapis-common-protos @ https://files.pythonhosted.org/packages/e2/fd/d9efa2085bd762fba3a637eb3e36d76d72eb6e083d170aeaca65a75f1f9c/googleapis_common_protos-1.56.4-py2.py3-none-any.whl#sha256=8eb2cbc91b69feaf23e32452a7ae60e791e09967d81d4fcc7fc388182d1bd394
-grpcio @ https://files.pythonhosted.org/packages/57/86/6ace76491cd0dbeaa176a13304c71101921589cdee68a052e067a7333894/grpcio-1.48.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=13dad31f5155fa555d393511cc8108c41b1b5b54dc4c24c27d4694ddd7a78fad
-grpcio-status @ https://files.pythonhosted.org/packages/ef/a6/0b7fbff7e9994f53a28b65eb5d3aa663424c933fa921abf16e9d3488141f/grpcio_status-1.48.0-py3-none-any.whl#sha256=34808aa954e829c4600de3324ec53b5fa2c934f58c3d55586959b9d6989f0d5b
-gunicorn @ https://files.pythonhosted.org/packages/e4/dd/5b190393e6066286773a67dfcc2f9492058e9b57c4867a95f1ba5caf0a83/gunicorn-20.1.0-py3-none-any.whl#sha256=9dcc4547dbb1cb284accfb15ab5667a0e5d1881cc443e0677b4882a4067a807e
-h11 @ https://files.pythonhosted.org/packages/19/d2/32a15a4955be1b8114a1c570999eefd31279c7f9aa2d2a43d492a79b53c5/h11-0.13.0-py3-none-any.whl#sha256=8ddd78563b633ca55346c8cd41ec0af27d3c79931828beffb46ce70a379e7442
-html5lib==1.1
-httplib2 @ https://files.pythonhosted.org/packages/59/0f/29725a9caf4b2618f524e0f28e2bda91aca8f880123ec77426ede6ea1ea4/httplib2-0.20.4-py3-none-any.whl#sha256=8b6a905cb1c79eefd03f8669fd993c36dc341f7c558f056cb5a33b5c2f458543
-idna==3.3
-importlib-metadata @ file:///home/runner/.cache/pypoetry/artifacts/02/b8/e7/cdbf046c6e0c5587bd0cde7fba83b0aed864615e50ef74e886fa097283/importlib_metadata-4.11.4-py3-none-any.whl
-itsdangerous @ file:///home/runner/.cache/pypoetry/artifacts/6b/71/e2/3c897fada71f23343d8824283c8a5ee3f9e5cbbfe34392f364280c7d1f/itsdangerous-2.1.2-py3-none-any.whl
-jedi==0.18.1
-jeepney==0.7.1
-Jinja2 @ file:///home/runner/.cache/pypoetry/artifacts/f1/c2/59/cce837c517febce44ec6b5d0e64cfe84818df1521fdb524861ce1114f4/Jinja2-3.1.2-py3-none-any.whl
-keyring==21.8.0
-lockfile==0.12.2
-MarkupSafe @ file:///home/runner/.cache/pypoetry/artifacts/88/0a/95/ac2c115c8bb7dfdc50b353cd4080e4d749fd35e75c623094e3f6d5ef9c/MarkupSafe-2.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-msgpack @ https://files.pythonhosted.org/packages/ad/07/f20fd312f7b0c698d1ed49f1780aedb7dee8e3127663b4de0e20c0b016f5/msgpack-1.0.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=6916c78f33602ecf0509cc40379271ba0f9ab572b066bd4bdafd7434dee4bc6e
-multidict @ file:///home/runner/.cache/pypoetry/artifacts/d4/f2/19/e92b8d780e4d481ca2e4dc917e50941c793d8b8481ffe37410dab9075a/multidict-6.0.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-numpy @ file:///home/runner/.cache/pypoetry/artifacts/0a/f1/63/4e86e206dd78b5ffa1d0b33299c8275c3e1a2411fac9d63320ce69de5f/numpy-1.22.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-packaging==20.9
-parso==0.8.3
-pastel==0.2.1
-pexpect==4.8.0
-pipreqs-amasad==0.4.10
-pkginfo==1.7.1
-platformdirs==2.4.0
-pluggy==1.0.0
-poetry==1.1.11
-poetry-core==1.0.7
-proto-plus @ https://files.pythonhosted.org/packages/92/ce/a3baf8ae4e5c1c08f92500b7efe3ecca7ef3817dbee1b54067f10e150828/proto_plus-1.20.6-py3-none-any.whl#sha256=c6c43c3fcfc360fdab46b47e2e9e805ff56e13169f9f2e45caf88b6b593215ab
-protobuf @ https://files.pythonhosted.org/packages/a8/93/1d71d31bc80e569412c808a23c53df87c935ed3dbd787056bcd5b2929cbe/protobuf-4.21.5-cp37-abi3-manylinux2014_x86_64.whl#sha256=5e0b272217aad8971763960238c1a1e6a65d50ef7824e23300da97569a251c55
-ptyprocess==0.7.0
-pyasn1 @ https://files.pythonhosted.org/packages/62/1e/a94a8d635fa3ce4cfc7f506003548d0a2447ae76fd5ca53932970fe3053f/pyasn1-0.4.8-py2.py3-none-any.whl#sha256=39c7e2ec30515947ff4e87fb6f456dfc6e84857d34be479c9d4a4ba4bf46aa5d
-pyasn1-modules @ https://files.pythonhosted.org/packages/95/de/214830a981892a3e286c3794f41ae67a4495df1108c3da8a9f62159b9a9d/pyasn1_modules-0.2.8-py2.py3-none-any.whl#sha256=a50b808ffeb97cb3601dd25981f6b016cbb3d31fbf57a8b8a87428e6158d0c74
-pycparser==2.21
-pyflakes==2.1.1
-pylev==1.4.0
-pyparsing @ https://files.pythonhosted.org/packages/6c/10/a7d0fa5baea8fe7b50f448ab742f26f52b80bfca85ac2be9d35cdd9a3246/pyparsing-3.0.9-py3-none-any.whl#sha256=5026bae9a10eeaefb61dab2f09052b9f4307d44aee4eda64b309723d8d206bbc
-python-dotenv==0.20.0
-python-engineio @ https://files.pythonhosted.org/packages/45/ba/aa28ea42cbe8a133004f1cfe799bbd11d56f24c6fb588feea4d1dffeb148/python_engineio-4.3.4-py3-none-any.whl#sha256=7454314a529bba20e745928601ffeaf101c1b5aca9a6c4e48ad397803d10ea0c
-python-lsp-jsonrpc==1.0.0
-python-lsp-server==1.4.1
-python-socketio @ https://files.pythonhosted.org/packages/d3/b0/862b095d2c6e7892c7be2056efe02d4faea62ee35b3ed10b905fdfa3d74a/python_socketio-5.7.1-py3-none-any.whl#sha256=86ee93591c1e781d339d9a61940e62fd6cbc838390653b52a7bcc4f7ce89fe47
-replit @ file:///home/runner/.cache/pypoetry/artifacts/b2/02/c5/4a4bb623fdbed06e87884e479519b8351553b8cae5559be043a8ec4425/replit-3.2.4-py3-none-any.whl
-requests @ file:///home/runner/.cache/pypoetry/artifacts/86/bd/5b/bbdc46cd2c5ecb740d47611dc991cf7fe029d010519a2fd6c1955579f4/requests-2.28.0-py3-none-any.whl
-requests-toolbelt==0.9.1
-rope==0.18.0
-rsa @ https://files.pythonhosted.org/packages/49/97/fa78e3d2f65c02c8e1268b9aba606569fe97f6c8f7c2d74394553347c145/rsa-4.9-py3-none-any.whl#sha256=90260d9058e514786967344d0ef75fa8727eed8a7d2e43ce9f4bcf1b536174f7
-SecretStorage==3.3.1
-shellingham==1.4.0
-simple-websocket @ https://files.pythonhosted.org/packages/70/a7/9705cf6af43b07d1a50960828c1037b5250b7922c2486bddbb286e66e0c7/simple_websocket-0.8.0-py3-none-any.whl#sha256=fe812eb97f3748b6bdf89470f3cc60f4c6f92cc8935e43df8634a1aed56813a6
-six==1.16.0
-toml==0.10.2
-tomlkit==0.7.2
-typing-extensions @ file:///home/runner/.cache/pypoetry/artifacts/44/b3/1f/4ac135543516a8e8a97bf3542272b786c9f86cdb42e7affc11199032d5/typing_extensions-3.10.0.2-py3-none-any.whl
-ujson==5.3.0
-uritemplate @ https://files.pythonhosted.org/packages/81/c0/7461b49cd25aeece13766f02ee576d1db528f1c37ce69aee300e075b485b/uritemplate-4.1.1-py2.py3-none-any.whl#sha256=830c08b8d99bdd312ea4ead05994a38e8936266f84b9a7878232db50b044e02e
-urllib3 @ file:///home/runner/.cache/pypoetry/artifacts/09/f9/74/d572d7707f744bb8d5d368c485b236f782b4bde1d558f237ca85d5b4be/urllib3-1.26.9-py2.py3-none-any.whl
-virtualenv==20.10.0
-webencodings==0.5.1
-Werkzeug @ https://files.pythonhosted.org/packages/c0/93/d6d60870e47162ea6a1bbdd787649eea776b2a70618dd66ed87cb2238543/Werkzeug-2.2.1-py3-none-any.whl#sha256=7e1db6a5ba6b9a8be061e47e900456355b8714c0f238b0313f53afce1a55a79a
-wsproto @ https://files.pythonhosted.org/packages/4b/6e/5f8c3e8418966f50d028e336f0c2c568f8522577183678923609d4d24924/wsproto-1.1.0-py3-none-any.whl#sha256=2218cb57952d90b9fca325c0dcfb08c3bda93e8fd8070b0a17f048e2e47a521b
-yapf==0.31.0
-yarg==0.1.9
-yarl @ file:///home/runner/.cache/pypoetry/artifacts/1c/b1/ab/060bfb7dbc4a037102a22a2171f5f19ccec8bf7338a6c23c02796edd0d/yarl-1.7.2-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
-zipp @ file:///home/runner/.cache/pypoetry/artifacts/50/a3/cb/f403cce17fb5613b5ff8e058b2f694d598def62f2a71258897748e48df/zipp-3.8.0-py3-none-any.whl
+Click
+Flask
+Flask-SocketIO
+gevent
+gevent-websocket
+greenlet
+gunicorn
+passlib
+psycopg2
+python-engineio
+python-socketio
+six
+Werkzeug
+termcolor
+requests
+psycopg2-binary
+Markdown
+sentry-sdk[flask]
