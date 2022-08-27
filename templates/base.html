@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{% block title %}{{ workspace.name }} | Spaci{% endblock %}</title>
+	<link rel="icon" type="image/x-icon" href="/static/img/spaci.svg">
+	<link rel="stylesheet" href="/static/style.css">
+	<!-- this is was causing fouc -->
+	<!-- <script src="/static/sidenav.js" defer></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
+	<script src="/static/script.js"></script>
+</head>
+<body>
+    
+	{% include 'navbar.html' %}
+	{% include 'sidenav.html' %}
+
+	<div id="content">
+		{% block content %}{% endblock %}
+	</div>
+
+    <script src="/static/sidenav.js"></script>
+	
+</body>
+</html>

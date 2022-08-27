@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Add Collaborators</h1>
+		<div id="invite">
+			<form>
+				<input type="email" name="email" placeholder="Invite someone" autofocus>
+				<input type="submit" value="Invite">
+			</form>
+		</div>
+    <div id="collaborators">
+		<h2>Collaborators</h2>
+        {% for collaborator in collaborators %}
+			<div>
+				<p>{{ collaborator }}</p>
+				<img src="/static/img/close.svg" alt="Remove this collaborator">
+			</div>
+		{% endfor %}
+    </div>
+	<script src="/static/share.js"></script>
+{% endblock %}

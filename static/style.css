@@ -1,0 +1,400 @@
+/* This file is for the /workspaces page */
+
+@import url('navbar.css');
+@import url('sidenav.css');
+@import url('chat.css');
+
+/* For general use text */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* For headings */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+:root {
+	--box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	--box-shadow-heavy: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	--box-shadow-layers: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+	--red: #df5f5f;
+	--gradient-primary: linear-gradient(45deg, #df5f5f, royalblue);
+	--gradient-secondary: linear-gradient(45deg, #df5f5f, #ffc107);
+}
+
+* {
+	font: inherit;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+html,
+body {
+	width: 100%;
+	min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  overflow-wrap: break-word;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+input {
+	outline: none;
+}
+
+code {
+	background-color: whitesmoke;
+	border-radius: 4px;
+	padding: 3px 5px;
+	font-family: monospace;
+}
+
+.red {
+	color: var(--red) !important;
+}
+
+.monospace-heading {
+	font-family: 'Rubik Mono One', monospace;
+}
+
+#content {
+	width: calc(100vw - 220px);
+	height: calc(100vh - 100px);
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 25px 35px 25px 55px;
+}
+
+#content h1 {
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+
+#planning-canvas {
+	height: 80%;
+	width: 100%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 7px;
+	border: 2px dashed #18181B;
+	padding: 3px;
+	border-radius: 15px;
+}
+
+.text-gradient-primary {
+	background: var(--gradient-primary) !important;
+	background-clip: text !important;
+	-webkit-background-clip: text !important;
+	-moz-background-clip: text !important;
+	-o-background-clip: text !important;
+	font-weight: bold !important;
+	color: transparent !important;
+}
+
+.text-gradient-secondary {
+	background: var(--gradient-secondary) !important;
+	background-clip: text !important;
+	-webkit-background-clip: text !important;
+	-moz-background-clip: text !important;
+	-o-background-clip: text !important;
+	font-weight: bold !important;
+	color: transparent !important;
+}
+
+
+#invite {
+	widtH: 100%;
+	margin-bottom: 50px;
+}
+
+#invite form {
+	display: flex;
+}
+
+#invite input {
+	flex: 20;
+	border-radius: 4px 0px 0px 4px;
+	border: none;
+	background-color: whitesmoke;
+	padding: 10px;
+}
+
+#invite input[type="submit"] {
+	flex: 1;
+	border-radius: 0px 9px 9px 0px;
+}
+
+#collaborators h2 {
+	font-size: 20px;
+	margin-bottom: 15px;
+	font-weight: 700;
+}
+
+#collaborators div {
+	width: 100%;
+	display: flex;
+	margin-bottom: 10px;
+	background-color: whitesmoke;
+	padding: 5px 10px;
+	padding-top: 10px;
+	border-radius: 9px;
+}
+
+#collaborators div p {
+	flex: 35;
+	margin-right: 10px;
+}
+
+#collaborators div img {
+	flex: 1;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#tasks div {
+	background-color: whitesmoke;
+	border-radius: 4px;
+	box-shadow: var(--box-shadow);
+	padding: 10px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+#tasks div h2 {
+	font-weight: 600;
+	padding-bottom: 5px;
+	font-size: 17px;
+}
+
+#tasks div p {
+	font-size: 14px;
+}
+
+#tasks div p::before {
+	content: '-';
+	width: 5px;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+#tasks div img {
+	width: 25px;
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+}
+
+#new-task {
+	display: flex;
+	margin-bottom: 25px;
+}
+
+#new-task input {
+	border: none;
+	background-color: whitesmoke;
+	padding: 10px;
+}
+
+#new-task input[name='title'] {
+	border-radius: 4px 0px 0px 4px;
+	flex: 2;
+	font-weight: 600;
+}
+
+#new-task input[name='description'] {
+	flex: 10;
+}
+
+	
+#new-task input[type='submit'] {
+	border-radius: 0px 4px 4px 0px;
+	flex: 1;
+}
+
+#settings-form {
+	width: 100%;
+	min-height: 100%;
+}
+
+#settings-form input {
+	border: none;
+	background-color: whitesmoke;
+	padding: 10px;
+	border-radius: 9px;
+	box-shadow: var(--box-shadow);
+	margin: 10px auto auto 20px;
+
+	outline: none;
+}
+
+#settings-form h2 {
+	font-weight: 600;
+	font-size: 24px;
+	margin: 55px auto 20px auto;
+	border-bottom: 3px solid whitesmoke;
+	padding: 5px;
+}
+
+#settings-form h3 {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+#settings-form p {
+	margin-left: 20px;
+}
+
+#settings-form textarea {
+	width: 96%;
+	margin: 0px auto 50px 20px;
+	height: 25vh;
+	border: none;
+	background-color: whitesmoke;
+	padding: 25px;
+	border-radius: 0px 0px 9px 9px;
+	resize: none;
+	outline: none;
+	font-family: monospace;
+	font-size: 14px;
+}
+
+#settings-form .file-info-display {
+	display: flex;
+	width: 96%;
+	margin-top: 35px;
+	margin-left: 20px;
+	border-radius: 9px 9px 0px 0px;
+	background-color: whitesmoke;
+	padding: 10px 20px;
+	position: relative;
+	z-index: 2;
+	box-shadow: var(--box-shadow);
+}
+
+#settings-form .file-info-display span {
+	font-family: monospace;
+	font-size: 14px;
+	flex: 35;
+	transform: translateY(15%);
+}
+
+#settings-form .file-info-display input {
+	flex: 2;
+	box-shadow: none;
+	border-radius: none;
+	background-color: whitesmoke;
+	padding: 0;
+	margin: 0;
+	color: grey;
+	font-weight: 700;
+}
+
+#name-settings {
+	display: flex;
+	width: 50px;
+	box-shadow: var(--box-shadow);
+	border-radius: 9px;
+	margin: 10px auto auto 20px;
+	width: fit-content;
+}
+
+#name-settings input[type='text'] {
+	flex: 4;
+	margin: 0;
+	border-radius: 9px 0px 0px 9px;
+	box-shadow: none;
+}
+
+#name-settings input[type='submit'] {
+	flex: 1;
+	color: grey;
+	font-weight: 700;
+	margin: 0;
+	border-radius: 0px 9px 9px 0px;
+	box-shadow: none;
+}
+
+#delete-button {
+	 background-color: whitesmoke;
+	border-radius: 9px;
+	border: 2px dashed gainsboro;
+	color: var(--red);
+	font-weight: 600;
+	padding: 5px 10px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+	margin-top: 25px;
+	cursor: pointer;
+}
+
+#delete-instructions input {
+	border: none;
+	background-color: whitesmoke;
+	padding: 10px;
+	border-radius: 9px;
+	box-shadow: var(--box-shadow);
+	margin-top: 15px;
+}
+
+#delete-instructions input[type="submit"] {
+	color: var(--red);
+	font-weight: 600;
+}
+
+#delete-instructions {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 275px;
+	height: 300px;
+	background-color: rgba(245, 245, 245, 0.8);
+	z-index: 3;
+	border-radius: 9px;
+	box-shadow: var(--box-shadow-heavy);
+}
+
+#delete-instructions #heading {
+	height: 35%;
+	background-color: var(--red);
+	border-radius: 9px 9px 0px 0px;
+	padding: 20px 10px 10px 10px;
+}
+
+#delete-instructions #heading h3 {
+	color: white;
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+}
+
+ #delete-instructions #description {
+	 width: 100%;
+	 padding: 25px;
+ }
+
+#delete-instructions #description p {
+	font-family: monospace;
+	font-size: 14px;
+}
+
+
+/* Dev only elements will be removed after */
+.dev-only {
+	/* stop from affecting position of other elements */
+	position: fixed; 
+	bottom: 10px;
+	left: 10px;
+}

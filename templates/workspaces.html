@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workspaces | Spaci</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/workspaces.css">
+</head>
+<body>
+    <h1>Spacis</h1>
+    <div id="workspaces">
+			{% for workspace in workspaces %}
+					<a href="/workspaces/{{ workspace.id }}" class="workspace">
+							<h3>{{ workspace.name }}</h3>
+							<p>{{ workspace.description }}</p>
+					</a>
+			{% endfor %}
+
+			
+			<br>
+			<a href="/create_workspace" class="workspace">
+				<h3>Add a workspace</h3>
+				<p>Click here to create one (it'll be named 'a workspace'). We can add name changin later. I just want to get all the basics done.</p>
+			</a>
+    </div>
+</body>
+</html>

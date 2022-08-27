@@ -1,0 +1,1 @@
+const workspaceID = location.href.split('/').at(-2);

@@ -1,0 +1,48 @@
+<div id="sidenav">
+	<div id="workspace-selector" title="Switch to another workspace">
+		<span>{{ workspace.name }}</span><img src="/static/img/dropdown.svg" alt="All projects">
+	</div>
+	<div id="workspace-list">
+		<p id="back-btn">&lt; Back</p>
+		{% for workspace in workspaces %}
+			<a href="/workspaces/{{ workspace.id }}" class="workspace">
+				<h3><img src="/static/img/workspace.svg"> {{ workspace.name }}</h3>
+			</a>
+		{% endfor %}
+		<br>
+		<a href="/new" class="workspace">
+			<h3><img src="/static/img/add.svg"> New Workspace</h3>
+		</a>
+	</div>
+	<br>
+	<br>
+	<br>
+	<a href="chat">
+		<p>Chat</p>
+		<span>Quick communication</span>
+	</a>
+	<a href="plan">
+		<p>Plan</p>
+		<span>Collaborative power</span>
+	</a>
+	<a href="tasks">
+		<p>Tasks</p>
+		<span>Productivity</span>
+	</a>
+	<a href="share">
+		<p>Share</p>
+		<span>Collaborators++</span>
+	</a>
+	<a href="settings">
+		<p>Settings</p>
+		<span>Configs for this Spaci</span>
+	</a>
+<!-- 	<a id="add-modules" href="modules">
+		<p><img src="/static/img/add.svg"></p>
+		<span>Work faster with modules</span>
+	</a> -->
+	<a href="/logout" id="logout">
+		<p class="red">Logout</p>
+		<span>from <span>{{ session['email'] }}</span></span>
+	</a>
+</div>

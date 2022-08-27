@@ -1,0 +1,30 @@
+* {
+	color: white;
+}
+
+body {
+	background-color: #18181B;
+}
+
+input {
+	background-color: rgba(245,245,245,0.05);
+	border: none;
+	display: block;
+	border-radius: 4px;
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h1 {
+	font-size: 64px;
+	font-family: 'Rubik Mono One', monospace;
+	margin-bottom: 50px;
+}

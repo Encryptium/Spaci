@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<h1>Settings</h1>
+
+	<form id="settings-form" method="POST">
+		<h2>General</h2>
+		<h3>Spaci Name</h3>
+		<p>What should we call this workspace?</p>
+		<div id="name-settings">
+			<input type="text" name="name" value="{{ workspace.name }}" placeholder="Spaci" required>
+			<input type="submit" value="Save">
+		</div>
+		
+
+		<h3>Spaci ID</h3>
+		<p>This is the permanent identifier tag for this workspace. You cannot change it unless you request it through the help chat.</p>
+		<input type="text" value="{{ workspace.id }}" size="36" style="text-align: center;" disabled>
+
+		<h2>Advanced</h2>
+		<h3>Spaci Configuration</h3>
+		<p>These settings will require you to modify the <code>.spaci</code> configuration file. <i>Any changes you make to this file will only apply to this workspace.</i></p>
+
+		<div class="file-info-display">
+			<span>.spaci</span>
+			<input type="submit" value="Save">
+		</div>
+		<textarea name="spaci-config">{{ workspace.config|tojson }}</textarea>
+	</form>
+
+	<h3>Delete Workspace</h3>
+	<button id="delete-button">Delete {{ workspace.name }}</button>
+
+	<form id="delete-instructions">
+		<div id="heading">
+			<h3>Delete This Workspace</h3>
+		</div>
+
+		<div id="description">
+			<p>In order to delete this workspace, type <code>{{ workspace.name }}</code>.</p>
+			<input type="text" id="delete-input" pattern="{{ workspace.name }}" placeholder="Enter here..." autocomplete="off">
+			<input type="submit" pattern="{{ workspace.name }}" placeholder="Enter here..." value="Delete">
+		</div>
+	</form>
+
+	<script src="/static/settings.js"></script>
+{% endblock %}

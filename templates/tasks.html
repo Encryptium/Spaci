@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Tasks</h1>
+	<form id="new-task">
+		<input type="text" name="title" placeholder="Title this task">
+		<input type="text" name="description" placeholder="Provide a short description">
+		<input type="submit" value="Add task">
+	</form>
+
+	<div id="tasks">
+		{% for task in workspace.tasks %}
+			<div>
+				<h2>{{ task.title }}</h2>
+				<p>{{ task.description }}</p>
+				<img src="/static/img/done.svg" alt="Clear Task" title="Mark as done">
+			</div>
+		{% endfor %}
+	</div>
+	<script src="/static/tasks.js"></script>
+{% endblock %}

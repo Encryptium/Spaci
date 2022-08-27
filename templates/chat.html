@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<h1 id="chat-heading">Chat</h1>
+
+	<div id="chat">
+		<div id="chat-content">
+			<div class="message">
+				<p class="sender">Spaci Messenger</p>
+				<pre>Only the last 25 messages will be shown.</pre>
+			</div>
+		</div>
+		<div id="message-editor">
+			<form>
+				<input id="message-field" type="text" name="message" placeholder="Look above!" autocomplete="off" autofocus>
+				<div id="send-message">
+					<label for="send-message-button"><img src="/static/img/send-message.svg" title="Send"></label>
+					<input id="send-message-button" type="submit" value="Send">
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="/static/chat.js"></script>
+{% endblock %}
